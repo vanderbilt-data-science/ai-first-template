@@ -1,4 +1,4 @@
-#{Skill Title}
+# {Skill Title}
 
 ## Purpose
 When should this skill be used? What type of task does it apply to?
