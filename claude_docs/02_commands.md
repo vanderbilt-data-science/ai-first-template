@@ -186,21 +186,6 @@ Skills are more advanced—Claude loads them when it recognizes a relevant task.
 
 ---
 
-## Useful Environment Variables
-
-```bash
-# Disable auto-updates
-export DISABLE_AUTOUPDATER=1
-
-# Use a specific model
-export ANTHROPIC_MODEL="claude-sonnet-4-5-20250929"
-
-# Custom API endpoint (for enterprise)
-export ANTHROPIC_BASE_URL="https://your-proxy.com"
-```
-
----
-
 ## Troubleshooting Commands
 
 ```bash
@@ -265,6 +250,21 @@ claude --mcp-debug
 
 These features are powerful but typically not needed for smaller projects or most data science work. 
 Feel free to skip this section entirely! These are some additional extra features that are good to know about, but that most likely you won't find yourself needing.
+
+### Useful Environment Variables
+
+You can set environment variables to change Claude Code's default behavior.
+
+**When you'd use this:** You have very specific settings you want to be the default. The two below are really the only potentially relevant.
+
+```bash
+# Disable auto-updates
+export DISABLE_AUTOUPDATER=1 #if updates are really disruptive, probably wouldn't use
+
+# Use a specific model
+export ANTHROPIC_MODEL="claude-sonnet-4-5-20250929" # only if a very specific model is best for your use case, otherwise /model
+```
+
 
 ### Pre-configure Permissions
 You can set a configuration for the general permissions (allow, deny) for specific commands in the `settings.json` file.
