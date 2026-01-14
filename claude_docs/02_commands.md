@@ -174,25 +174,6 @@ claude -p "list all TODO comments" --output-format json
 
 ---
 
-## Git Worktrees (Parallel Work)
-
-Run multiple Claude sessions on the same repo, each in a separate branch:
-
-```bash
-# Create worktrees
-git worktree add ../myapp-feature-a -b feature/a main
-git worktree add ../myapp-feature-b -b feature/b main
-
-# Run Claude in each
-cd ../myapp-feature-a && claude
-# (in another terminal)
-cd ../myapp-feature-b && claude
-```
-
-Each session has isolated changes. Merge when ready.
-
----
-
 ## Skills vs. Custom Commands
 
 | Feature | Custom Commands | Skills |
