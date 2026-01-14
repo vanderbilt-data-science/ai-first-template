@@ -107,7 +107,7 @@ Claude asks before performing sensitive actions. When prompted:
 
 - **y** — Allow this once
 - **n** — Deny
-- **Tab** — Cycle through scope options:
+- **Arrow keys** — Cycle through scope options:
   - Allow once
   - Allow for this session
   - Always allow (for this project)
@@ -264,7 +264,6 @@ export DISABLE_AUTOUPDATER=1 #if updates are really disruptive, probably wouldn'
 # Use a specific model
 export ANTHROPIC_MODEL="claude-sonnet-4-5-20250929" # only if a very specific model is best for your use case, otherwise /model
 ```
-
 
 ### Pre-configure Permissions
 You can set a configuration for the general permissions (allow, deny) for specific commands in the `settings.json` file.
