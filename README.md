@@ -3,10 +3,10 @@ An example/template repo for an AI-First project. Expects coding is to be done w
 
 ### Resources
 
-#### More details on the AI-First Sprint Cycle:
-[AI-First Research Sprints Guidelines.pdf](https://github.com/user-attachments/files/24602101/AI-First.Research.Sprints.Guidelines.pdf)
+More details on the AI-First Sprint Cycle and  working with Claude Code for AI-First Sprints + example issues, code, and PR's can found here:
+[Full Workflow Guide](https://docs.google.com/document/d/1m3HixymZmrgx12u_s-6D0cMc-OiAqUMwZuuc6IfGJ5A/edit?tab=t.0)
 
-#### More details on working with Claude Code for AI-First Sprints:
-[AI-First Workflow Guide.pdf](https://github.com/user-attachments/files/24602107/AI-First.Workflow.Guide.pdf)
+This repo contains documentation "cheat sheets" about using Claude Code:
+[Claude docs](https://github.com/vanderbilt-data-science/ai-first-template/tree/main/claude_docs)
 
-Claude code complete docs: https://code.claude.com/docs
+Anthropic also maintains full Claude code documentation here: https://code.claude.com/docs
