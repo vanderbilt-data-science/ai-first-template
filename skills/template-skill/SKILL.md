@@ -1,4 +1,12 @@
+---
+name: template-skill
+description: Replace with description of the skill and when Claude should use it.
+
+---
+
 # {Skill Title}
+> the below sections are examples of what might go in a skill. In general, what makes most sense for the skill will depend on exactly what the skill entails! But these are some recommended sections you can include.
+> See examples of skills here: https://github.com/anthropics/skills
 
 ## Purpose
 When should this skill be used? What type of task does it apply to?
