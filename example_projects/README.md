@@ -8,6 +8,11 @@ Includes a few files from the get-go, and then some suggested tasks to ask Claud
 
 Suggested things to try: 
 
+In `broken_math.py`:
+1. Ask Claude Code to debug. Watch it run to find the error, fix it, and check that it works.
+
+
+In `ml-tracker`:
 1. Open the directory in the terminal. Inspect the CLAUDE.md. Note what kinds of things are in there.
 2. Look at .claude/skills/visualization.md. Only the name and first line are loaded upfron, but the full content injects when Claude decides it's relevant.
 3. Hit `Shift+Tab` until you enter plan mode. Try: "Build a dashboard to visualize the experiment results."
