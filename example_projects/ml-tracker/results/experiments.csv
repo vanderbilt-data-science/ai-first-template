@@ -1,0 +1,13 @@
+experiment_name,model_type,learning_rate,epochs,batch_size,val_accuracy,val_loss,train_time_mins,notes
+baseline_bert,bert-base,2e-5,3,16,0.847,0.412,28.3,Initial baseline no tuning
+bert_lr_sweep_1,bert-base,1e-5,3,16,0.861,0.389,28.1,Lower LR slightly better
+bert_lr_sweep_2,bert-base,5e-5,3,16,0.823,0.451,28.4,Higher LR unstable
+bert_larger_batch,bert-base,2e-5,3,32,0.853,0.401,22.7,Larger batch faster but worse
+bert_more_epochs,bert-base,2e-5,5,16,0.871,0.364,47.2,More epochs helps
+bert_best_so_far,bert-base,1e-5,5,16,0.879,0.341,47.0,Best bert config
+distilbert_baseline,distilbert,2e-5,3,16,0.831,0.443,14.2,Much faster 40% less compute
+distilbert_tuned,distilbert,1e-5,5,32,0.858,0.378,18.9,Tuned distilbert close to bert
+roberta_baseline,roberta-base,2e-5,3,16,0.863,0.371,31.4,RoBERTa strong baseline
+roberta_tuned,roberta-base,1e-5,5,16,0.891,0.318,52.1,Best overall but slow
+roberta_small_batch,roberta-base,1e-5,5,8,0.887,0.329,61.3,Small batch marginal gain huge cost
+distilbert_final,distilbert,1e-5,5,16,0.862,0.371,19.4,Best distilbert tradeoff candidate

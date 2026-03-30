@@ -1,0 +1,4 @@
+# Core (no extra deps needed for tracker.py — stdlib only)
+# Add these when you build the dashboard:
+# streamlit>=1.32.0
+# plotly>=5.20.0
